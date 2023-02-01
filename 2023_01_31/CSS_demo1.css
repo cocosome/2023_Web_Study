@@ -1,0 +1,34 @@
+  *{
+    color: green;
+  }
+  
+  li{
+    color : blue;
+  }
+  
+  #special {
+    color : pink;
+  }
+  
+  .red {
+    width: 100px;
+    height: 100px;
+    background: yellow;
+  }
+  
+  button:hover {
+    color: red;
+    background: beige;
+  }
+  
+  a[href] {
+    color: gray;
+  }
+  
+  #send_button{
+    color : orange;
+  }
+  input:hover{
+    color: aqua;
+    background: red;
+  }
