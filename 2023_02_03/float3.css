@@ -1,0 +1,35 @@
+
+.container{
+  background-color: #ffffe0;
+  height: 100vh;
+  display: flex;
+  flex-direction: row
+  
+ }
+
+.item{
+    height: 40px;
+    width: 40px;
+    border: 1px solid black;
+  }
+  
+  .item1{
+    background-color: #dc143c;
+    /*flex-grow:1;
+    flex-shrink: 1*/
+    flex-basis: 16%;
+  }
+  
+  .item2{
+    background-color: coral;
+    /*flex-grow: 2;
+    flex-shrink: 2*/
+    flex-basis: 32%;
+  }
+  
+  .item3{
+    background-color: #ffd700;
+    /*flex-grow: 3;
+    flex-shrink: 3*/
+    flex-basis: 48%;
+  }
