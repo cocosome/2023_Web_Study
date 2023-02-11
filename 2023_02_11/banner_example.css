@@ -1,0 +1,76 @@
+@media screen and (min-width: 901px) {
+    .container {
+        background-color: #263343;
+        display: flex;
+        justify-content: space-around;
+        color: white;
+        align-items: center;
+        
+    }
+    #box2{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+  }
+  @media screen and (max-width: 900px) {
+    .container {
+        background-color: #263343;
+        display: flex;
+        justify-content: space-around;
+        color: white;
+        flex-direction: column;
+        align-items: center;
+    }
+    #box2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+  }
+
+#box1{
+    display: flex;
+}
+
+#box3{
+    display: flex;
+}
+
+.title_name{
+    text-align: center;
+}
+
+.Home{
+}   
+
+.Gallery{
+
+}
+
+.Weddings{
+
+}
+
+.FAQ{
+
+}
+
+.Bookings{
+
+}
+
+.twitter{
+    width: 10vw;
+    height: 10vh;
+    text-align: center;
+    padding: 5vh 0 0 0;
+}
+.facebook{
+    width: 10vw;
+    height: 10vh;
+    text-align: center;
+    padding: 5vh 0 0 0;
+}
