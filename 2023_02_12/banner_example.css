@@ -1,0 +1,95 @@
+body{
+    margin: 0px;
+}
+@media screen and (min-width: 901px) {
+    .container {
+        background-color: #263343;
+        display: flex;
+        justify-content: space-around;
+        color: white;
+        align-items: center;
+        font-size: large;
+        
+    }
+    #box1{
+        display: flex;
+    }
+
+    #box2{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    #box3{
+        display: flex;
+    }
+  }
+  @media screen and (max-width: 900px) {
+    .container {
+        background-color: #263343;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        color: white;
+        font-size: large;
+    }
+    #box1{
+        display: flex;
+    }
+
+    #box2{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #box3{
+        display: flex;
+        justify-content: center;
+    }
+  }
+
+.title_icon a{
+    padding: 15px 10px;
+    text-decoration: none;
+    color: #d49466;
+}
+.title_name a{
+    padding: 15px 10px;
+    text-decoration: none;
+    color: white;
+}
+#box2 span:hover{
+    background-color: #d49466;
+    border-radius: 4px;
+}
+.Home{
+    padding: 15px 10px;
+}   
+
+.Gallery{
+    padding: 15px 10px;
+}
+
+.Weddings{
+    padding: 15px 10px;
+}
+
+.FAQ{
+    padding: 15px 10px;
+}
+
+.Bookings{
+    padding: 15px 10px;
+}
+
+.twitter a{
+    padding: 15px 10px;
+    text-decoration: none;
+    color: white;
+}
+.facebook a{
+    padding: 15px 10px;
+    text-decoration: none;
+    color: white;
+}
